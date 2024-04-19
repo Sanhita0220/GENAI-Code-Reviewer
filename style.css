@@ -1,0 +1,41 @@
+/* Set the background color to dark */
+.stApp body {
+    background-color: #000000;
+}
+
+/* Customize the background color of the text area */
+.stTextArea textarea {
+    background-color: #d7fd65;  /* Change this to your desired color */
+    color: rgb(0, 0, 0);  /* Change this to your desired text color */
+}
+
+/* Change the background color of the resultant content */
+.stTextArea {
+    background-color: #e3f7a9; /* Change this to your desired color */
+    color: black; /* Adjust text color if needed */
+    width: 80%;
+}
+
+/* Customize the font color */
+.stApp {
+    color: #000000;
+}
+
+/* Customize the color of headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ccff33;
+}
+
+/* Customizing other Streamlit elements, e.g. button color */
+button {
+    background-color: #70e000;
+    color: white;
+}
+
+/* CSS to customize background color */
+.stApp .result-box {
+    background-color: #d7fd65; /* Change this to your desired color */
+    padding: 10px; /* Add padding to the result box */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    color: black;
+}
